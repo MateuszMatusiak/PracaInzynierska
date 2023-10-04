@@ -1,0 +1,73 @@
+name: rks
+description: Aplikacja wspomagająca planowanie  i organizację spotkań grupowych
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_signin_button: ^2.0.0
+  cupertino_icons: ^1.0.5
+  flutter_map: any
+  flutter_map_marker_popup: ^4.0.0
+  latlong2: ^0.8.1
+  easy_sidemenu: ^0.4.1
+  dio: ^4.0.6
+  email_validator: ^2.1.17
+  date_time_picker: ^2.1.0
+  flutter_easyloading: ^3.0.5
+  flutter_chat_types: ^3.6.0
+  image_picker: ^0.8.6
+  flutter_cache_manager: ^3.3.0
+  photo_view: ^0.14.0
+  shared_preferences: ^2.0.16
+  flutter_native_splash: ^2.2.16
+  table_calendar: ^3.0.8
+  intl: ^0.17.0
+  dart_amqp: ^0.2.4
+  animations: ^2.0.7
+  bottom_navy_bar: ^6.0.0
+  firebase_core: ^2.1.1
+  flutter_chat_ui: ^1.6.6
+  flutter_firebase_chat_core: ^1.6.4
+  firebase_auth: ^4.6.0
+  firebase_messaging: ^14.2.5
+  file_picker: ^5.2.5
+  firebase_storage: ^11.0.3
+  mime: ^1.0.2
+  http: ^0.13.5
+  path_provider: ^2.0.11
+  open_filex: ^4.2.2
+  cloud_firestore: ^4.4.4
+  url_launcher: ^6.1.10
+  flutter_local_notifications: ^13.0.0
+  firebase_analytics: ^10.1.6
+  fluttericon: ^2.0.0
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.12.0
+  flutter_lints: ^2.0.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+flutter_native_splash:
+  color: "#42a5f5"
+  color_dark: "#42a5f5"
+  image: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+

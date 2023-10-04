@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "292200430256",
+    "project_id": "legancka-ffcbc",
+    "storage_bucket": "legancka-ffcbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292200430256:android:03cfc29aca197a18bfd975",
+        "android_client_info": {
+          "package_name": "com.zam.rks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292200430256-kf33nqasfc3pbrh8crc1fff6snp6ecnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwp3ZWBScjYX0ly7KE42q06Jh_b2ensBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292200430256-5fsa89b5bmqhtq75e7i2303103tdlb6p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292200430256-sqafoh70l1550ikvtoh11abe916ptb91.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.zam.rks"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
